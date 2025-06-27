@@ -3,29 +3,29 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import InputComponent from "./InputComponent";
 
 describe("InputComponent", () => {
-  it("renders with label and input", () => {
+  it("renders with placeholder", () => {
     render(
       <InputComponent
-        label="Username"
         name="username"
+        placeholder="Username"
         value=""
         onChange={() => {}}
-      />,
+      />
     );
-    expect(screen.getByLabelText(/Username/i)).toBeInTheDocument();
+    expect(screen.getByPlaceholderText(/Username/i)).toBeInTheDocument();
   });
 
   it("calls onChange when input changes", () => {
     const handleChange = jest.fn();
     render(
       <InputComponent
-        label="Email"
         name="email"
+        placeholder="Email"
         value=""
         onChange={handleChange}
-      />,
+      />
     );
-    fireEvent.change(screen.getByLabelText(/Email/i), {
+    fireEvent.change(screen.getByPlaceholderText(/Email/i), {
       target: { value: "test@example.com" },
     });
     expect(handleChange).toHaveBeenCalledTimes(1);
@@ -34,14 +34,14 @@ describe("InputComponent", () => {
   it("renders in dark mode", () => {
     render(
       <InputComponent
-        label="Password"
         name="password"
+        placeholder="Password"
         value=""
         onChange={() => {}}
         dark={true}
-      />,
+      />
     );
-    const input = screen.getByLabelText(/Password/i);
+    const input = screen.getByPlaceholderText(/Password/i);
     expect(input).toHaveClass("bg-black");
     expect(input).toHaveClass("text-white");
   });

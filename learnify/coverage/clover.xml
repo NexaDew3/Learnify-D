@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1750998754007" clover="3.2.0">
-  <project timestamp="1750998754008" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="19" coveredconditionals="19" methods="5" coveredmethods="5" elements="33" coveredelements="33" complexity="0" loc="9" ncloc="9" packages="3" files="3" classes="3"/>
-    <package name="Button">
-      <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
-      <file name="Button.jsx" path="C:\Users\dhanu\OneDrive\Desktop\LMS\Learnify-D\learnify\src\components\Button\Button.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
-        <line num="15" count="4" type="stmt"/>
+<coverage generated="1751018465988" clover="3.2.0">
+  <project timestamp="1751018465988" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="23" coveredconditionals="23" methods="6" coveredmethods="6" elements="41" coveredelements="41" complexity="0" loc="12" ncloc="12" packages="3" files="3" classes="3"/>
+    <package name="Card">
+      <metrics statements="2" coveredstatements="2" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="Card.jsx" path="C:\Users\dhanu\OneDrive\Desktop\LMS\Learnify-D\learnify\src\components\Card\Card.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
       </file>
     </package>
-    <package name="InputComponent">
-      <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="InputComponent.jsx" path="C:\Users\dhanu\OneDrive\Desktop\LMS\Learnify-D\learnify\src\components\InputComponent\InputComponent.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+    <package name="Login">
+      <metrics statements="4" coveredstatements="4" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <file name="Login.jsx" path="C:\Users\dhanu\OneDrive\Desktop\LMS\Learnify-D\learnify\src\components\Login\Login.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
       </file>
     </package>
     <package name="Sidelink">
